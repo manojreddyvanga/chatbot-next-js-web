@@ -2,6 +2,46 @@
 
 A modern, feature-rich chatbot application built with Next.js, React, and TypeScript. The application supports file uploads, multiple AI models, and temperature-based response generation.
 
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Set up environment variables: ( add .env in the root path )
+   ```
+   JWT_SECRET=your-secret-key
+   ```
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Docker
+
+Build the image:
+```bash
+docker build -t chatbot-app .
+```
+
+Run the container:
+```bash
+docker run -p 3000:3000 chatbot-app
+```
+
+## Testing
+
+Run tests:
+```bash
+npm test
+```
+
+Watch mode:
+```bash
+npm run test:watch
+```
+
 ## Evidence screens
 ![alt text](https://raw.githubusercontent.com/manojreddyvanga/chatbot-next-js-web/refs/heads/master/evidence/image.png)
 ![alt text](https://raw.githubusercontent.com/manojreddyvanga/chatbot-next-js-web/refs/heads/master/evidence/five.jpg)
@@ -42,45 +82,6 @@ A modern, feature-rich chatbot application built with Next.js, React, and TypeSc
    - Component-level unit tests
    - Integration tests for critical flows
 
-## Getting Started
-
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Set up environment variables: ( add .env in the root path )
-   ```
-   JWT_SECRET=your-secret-key
-   ```
-4. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-## Docker
-
-Build the image:
-```bash
-docker build -t chatbot-app .
-```
-
-Run the container:
-```bash
-docker run -p 3000:3000 chatbot-app
-```
-
-## Testing
-
-Run tests:
-```bash
-npm test
-```
-
-Watch mode:
-```bash
-npm run test:watch
-```
 
 ## CI/CD
 
