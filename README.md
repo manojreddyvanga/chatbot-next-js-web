@@ -2,6 +2,9 @@
 
 A modern, feature-rich chatbot application built with Next.js, React, and TypeScript. The application supports file uploads, multiple AI models, and temperature-based response generation.
 
+## Evidence screens
+![alt text](https://raw.githubusercontent.com/manojreddyvanga/chatbot-next-js-web/refs/heads/master/evidence/image.png)
+
 ## Features
 
 - 🤖 Multiple AI model support (GPT-3.5, GPT-4, Claude-2)
