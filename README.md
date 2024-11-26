@@ -4,6 +4,9 @@ A modern, feature-rich chatbot application built with Next.js, React, and TypeSc
 
 ## Evidence screens
 ![alt text](https://raw.githubusercontent.com/manojreddyvanga/chatbot-next-js-web/refs/heads/master/evidence/image.png)
+![alt text](https://raw.githubusercontent.com/manojreddyvanga/chatbot-next-js-web/refs/heads/master/evidence/five.jpg)
+![alt text](https://raw.githubusercontent.com/manojreddyvanga/chatbot-next-js-web/refs/heads/master/evidence/one.jpg)
+![alt text](https://raw.githubusercontent.com/manojreddyvanga/chatbot-next-js-web/refs/heads/master/evidence/two.jpg)
 
 ## Features
 
